@@ -1,0 +1,125 @@
+@font-face {
+	font-family: 'get schwifty';
+	src: url('../../../get_schwifty.ttf') format('truetype');
+}
+
+body {
+	background: rgb(0, 131, 157);
+	background: linear-gradient(90deg, rgba(0, 131, 157, 1) 0%, rgba(12, 54, 25, 1) 0%, rgba(0, 0, 0, 1) 100%, rgba(0, 72, 86, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+.wave-img {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	z-index: -1;
+	filter: drop-shadow(2px 3px 10px #6159ec);
+	opacity: 0.5;
+}
+
+.container-login-img img {
+	margin-top: 80px;
+	filter: drop-shadow(2px 3px 10px #a4a1e3);
+	animation: mymove 1s infinite;
+}
+
+@keyframes mymove {
+	50% {
+		filter: drop-shadow(2px 4px 10px #6159ec);
+	}
+}
+
+.img-logo-welcome {
+	animation: mymoveimg 1s infinite;
+}
+
+@keyframes mymoveimg {
+	50% {
+		filter: drop-shadow(1px 3px 10px #6159ec);
+		transform: scale(1.05);
+	}
+}
+
+.container-login-card-input {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 500px;
+}
+
+.card-inputs-body {
+	width: 350px;
+}
+
+.card {
+	padding: 10px;
+	border-radius: 10px;
+	background-color: rgba(17, 17, 17, 0.277);
+	box-shadow: 0px 5px 7px #eeeeee29;
+}
+
+.card-header {
+	border: none;
+	background-color: rgb(17, 17, 17);
+}
+
+.card-header img {
+	filter: drop-shadow(2px 3px 10px #96ea99);
+}
+
+.card-body {
+	margin-top: 10px;
+	background-color: rgb(17, 17, 17);
+}
+
+.card-body .form-control {
+	border: none;
+	border-radius: 0%;
+	border-bottom: 3px solid #96ea99;
+	background-color: transparent;
+	color: white;
+	outline: none;
+	padding: 10px;
+	font-size: 1.0em;
+}
+
+.form-control::placeholder {
+	color: white;
+	font-size: 1.5em;
+}
+
+.card-body input:hover {
+	border-bottom: 3px solid #96ea99;
+}
+
+.card {
+	border: none;
+	background-color: rgb(17, 17, 17);
+}
+
+.form-control,
+.form-control:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.font-rick-morty {
+	font-family: 'get schwifty';
+}
+
+.btn-init-session {
+	background: none;
+	border-radius: 20px;
+	border: none;
+}
+
+.btn-init-session img {
+	border-radius: 20px;
+	box-shadow: 0px 2px 10px rgb(121, 226, 174);
+	transition: .1s;
+}
+
+.btn-init-session img:hover {
+	transform: scale(1.05);
+}

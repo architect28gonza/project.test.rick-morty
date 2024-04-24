@@ -1,0 +1,10 @@
+.swal2-popup  {
+    background-color: rgb(17, 17, 17) !important;
+    color: white;
+    font-family: 'get schwifty';
+    box-shadow: 0px 5px 7px #e8e8e829;
+}
+
+.swal2-popup button {
+    background-color: rgb(42, 151, 99) !important;
+}
