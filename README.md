@@ -39,12 +39,12 @@ Este es un proyecto privado que utiliza tecnologías modernas para crear una apl
 Este proyecto utiliza tecnologías como React, GraphQL y TypeScript para crear una aplicación web centrada en la serie "Rick & Morty". Utiliza bibliotecas como Apollo Client, Ant Design y SweetAlert2 para funcionalidades específicas.
 
 ## Instalación
-
 Para instalar y ejecutar este proyecto localmente, sigue estos pasos:
 
 1. Clona este repositorio en tu máquina local.
 2. Instala las dependencias usando npm o yarn:
-   ```bash
+
+```bash
    npm install
    # o
    yarn install
